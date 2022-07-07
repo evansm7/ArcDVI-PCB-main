@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/matt/Documents/Kicad/arc-dvi/arc-dvi.kicad_sch</source>
-    <date>Sat 18 Jun 2022 19:51:08 BST</date>
+    <date>Mon 20 Jun 2022 15:27:37 BST</date>
     <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -197,7 +197,7 @@
     </comp>
     <comp ref="J3">
       <value>SWD</value>
-      <footprint>SparkFun-Connectors:1X03_SMD_RA_FEMALE</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arc-dvi.kicad_sch"/>
@@ -206,7 +206,7 @@
     </comp>
     <comp ref="J4">
       <value>BOOT</value>
-      <footprint>SparkFun-Connectors:1X04_SMD_RA_FEMALE</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arc-dvi.kicad_sch"/>
@@ -536,7 +536,7 @@
     </comp>
     <comp ref="Y1">
       <value>12M 18pF</value>
-      <footprint>matt:Crystal_SMD_HC49-US</footprint>
+      <footprint>matt:Crystal_SMD_ABLS7M</footprint>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
@@ -796,7 +796,7 @@
       <tstamps>d1d890a4-bd27-4a3e-9bc2-b2fb57f9555c</tstamps>
     </comp>
     <comp ref="R16">
-      <value>4k7</value>
+      <value>4K7</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="FPGA"/>
