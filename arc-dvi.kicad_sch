@@ -2474,6 +2474,23 @@
     (pin "1" (uuid ac470f01-6712-46e6-93dc-dcfcf4bf7dc8))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 141.605 255.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 2860f837-5cb0-411f-807f-4fe07e12b841)
+    (property "Reference" "H5" (id 0) (at 144.145 253.9999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 144.145 256.5399 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 141.605 255.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 141.605 255.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "Device:C_Polarized") (at 262.89 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2d8d3748-8e36-453c-98eb-21803a3d0aaf)
@@ -3618,6 +3635,9 @@
     (path "/9ef766c3-4e89-4c43-a072-9cb931ae3f03"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
+    (path "/2860f837-5cb0-411f-807f-4fe07e12b841"
+      (reference "H5") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
     (path "/2fda9f65-cd41-4a12-bfe6-6ae3ba001749"
       (reference "J1") (unit 1) (value "Connector_50pin_FFC") (footprint "Connector_FFC-FPC:Hirose_FH12-50S-0.5SH_1x50-1MP_P0.50mm_Horizontal")
     )
@@ -3637,7 +3657,7 @@
       (reference "J6") (unit 1) (value "PWR_USB") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/39ecbee3-68dc-4e5f-bbac-36474508dffd/7f799f42-1a4d-4f3b-9c9a-0430320c0d7c"
-      (reference "J7") (unit 1) (value "Misc") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x04_P2.00mm_Vertical")
+      (reference "J7") (unit 1) (value "Misc") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
     )
     (path "/adf79454-fa21-4ca1-b75b-79de44e40f87/cad20d73-ab30-4c2f-8632-1673c10eded7"
       (reference "J8") (unit 1) (value "HDMI_A") (footprint "Connector_HDMI:HDMI_A_Molex_208658-1001_Horizontal")
@@ -3765,9 +3785,6 @@
     (path "/a411a235-97ab-4175-859b-74f6b97383ba"
       (reference "TP6") (unit 1) (value "P50") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/adf79454-fa21-4ca1-b75b-79de44e40f87/3f89818b-d890-49e2-a916-38449ebc09bd"
-      (reference "TP7") (unit 1) (value "MCLK") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/f778a554-bb14-4f45-878c-7eddbb5c99c6"
       (reference "TP8") (unit 1) (value "Gnd") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
     )
@@ -3788,9 +3805,6 @@
     )
     (path "/838b72cc-eb9e-4020-adeb-4d1da7258fcf/ddf59095-76bf-4674-9b3c-cbc9f4205881"
       (reference "TP14") (unit 1) (value "217") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/838b72cc-eb9e-4020-adeb-4d1da7258fcf/fce2df0a-e3c6-4a82-894e-fe607f55409f"
-      (reference "TP15") (unit 1) (value "219") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/838b72cc-eb9e-4020-adeb-4d1da7258fcf/539a7b65-9154-4554-9522-c93a7666ee4e"
       (reference "TP19") (unit 1) (value "Gnd") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
